@@ -10,7 +10,7 @@ email.set_content('Coding in Python!!!')
 with smtplib.SMTP(host='smtp.gmail.com',port=587) as smtp:
     smtp.ehlo()
     smtp.starttls()
-    smtp.login('elmerouya@gmail.com', 'elmerthecaptain')#'youremail',''password_yako'
+    smtp.login('elmerouya@gmail.com', 'password')#'youremail',''password_yako'
     smtp.send_message(email)# prompts the email to be sent
     print(('all shit is done'))
     #if any problems with logging in , https://www.google.com/settings/security/lesssecureapps
